@@ -231,6 +231,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+  font-family: "Gotham";
   padding-top: 10px;
 }
 

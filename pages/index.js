@@ -109,25 +109,22 @@ export default function Home() {
             <button className="btn-more-mobile">More</button>
           </div>
         </div>
-
-        {/* <div>
-          <div>
-            <div className="desc1">
-              <div className="judul">
-                <div>INTERIOR IN</div>
-                <div className="dis-p">YOUR HOUSE</div>
-              </div>
-              <div className="dis-judul2">
-                <p>CHOOSE FOR YOURSELF SOMETHING NEW</p>
-              </div>
-              <div>
-                <button className="btn-more">More</button>
-              </div>
+        <div>
+          <div className="desc1">
+            <div className="judul">
+              <div>INTERIOR IN</div>
+              <div className="dis-p">YOUR HOUSE</div>
+            </div>
+            <div className="dis-judul2">
+              <p>CHOOSE FOR YOURSELF SOMETHING NEW</p>
+            </div>
+            <div>
+              <button className="btn-more">More</button>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
-      {/* <div className="container-about">
+      <div className="container-about">
         <div className="header-about">
           <div>ABOUT COMPANY</div>
           <div>SOME HISTORY</div>
@@ -217,48 +214,49 @@ export default function Home() {
             <button className="subs-btn-sign">SUBSCRIBE</button>
           </div>
         </div>
-
-        <div className="box1-sign">
-          <Image
-            style="img1-sign"
-            src="/furniture7.jpg"
-            width="120"
-            height="100"
-          />
+        <div>
+          <div className="box1-sign">
+            <Image
+              style="img1-sign"
+              src="/furniture7.jpg"
+              width="120"
+              height="100"
+            />
+          </div>
+          <div className="box2-sign">
+            <Image
+              style="img2-sign"
+              src="/furniture6.jpg"
+              width="120"
+              height="100"
+            />
+          </div>
+          <div className="box3-sign">
+            <Image
+              style="img3-sign"
+              src="/furniture2.jpg"
+              width="120"
+              height="100"
+            />
+          </div>
+          <div className="box4-sign">
+            <Image
+              style="img4-sign"
+              src="/furniture8.jpeg"
+              width="120"
+              height="100"
+            />
+          </div>
+          <div className="box5-sign">
+            <Image
+              style="img5-sign"
+              src="/furniture10.jpeg"
+              width="120"
+              height="100"
+            />
+          </div>
         </div>
-        <div className="box2-sign">
-          <Image
-            style="img2-sign"
-            src="/furniture6.jpg"
-            width="120"
-            height="100"
-          />
-        </div>
-        <div className="box3-sign">
-          <Image
-            style="img3-sign"
-            src="/furniture2.jpg"
-            width="120"
-            height="100"
-          />
-        </div>
-        <div className="box4-sign">
-          <Image
-            style="img4-sign"
-            src="/furniture8.jpeg"
-            width="120"
-            height="100"
-          />
-        </div>
-        <div className="box5-sign">
-          <Image
-            style="img5-sign"
-            src="/furniture10.jpeg"
-            width="120"
-            height="100"
-          />
-        </div>
-      </div> */}
+      </div>
     </div>
   );
 }

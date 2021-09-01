@@ -16,6 +16,110 @@
     align-items: center;
     padding-top: 10px;
   }
+
+  nav.menu-mobile {
+    display: block;
+    padding: 30px;
+    font-family: "Gotham";
+  }
+
+  div.judul-mobile {
+    display: block;
+    font-size: 30px;
+    padding: 120px 30px 30px 30px;
+    font-family: "Gotham";
+  }
+
+  div.desc1 {
+    display: none;
+  }
+
+  div.container-about {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "content1"
+      "content2"
+      "img";
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.4fr 0.7fr;
+    margin: 50px;
+  }
+
+  div.content1-about {
+    grid-area: content1;
+    padding: 30px 0px 0px 0px;
+  }
+
+  div.content2-about {
+    grid-area: content2;
+    padding: 20px 0px 0px 0px;
+  }
+
+  div.container-services {
+    display: grid;
+    grid-template-areas: "header" "img1" "img2" "img3";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    background-color: rgb(238, 238, 238);
+    padding: 0px 50px 50px 50px;
+  }
+
+  div.img1-services {
+    grid-area: img1;
+    justify-self: center;
+    padding: 0px;
+  }
+
+  div.img3-services {
+    grid-area: img3;
+    justify-self: center;
+    padding: 0px;
+  }
+
+  div.container-news {
+    display: grid;
+    margin: 50px;
+    grid-template-areas:
+      "header"
+      "img"
+      "content1"
+      "content2";
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.4fr 0.7fr;
+  }
+
+  div.img-news {
+    grid-area: img;
+    justify-self: center;
+    padding: 30px 0px 0px 0px;
+  }
+
+  div.content1-news {
+    grid-area: content1;
+    padding: 50px 0px 0px 20px;
+  }
+
+  div.content2-news {
+    grid-area: content2;
+    padding: 40px 0px 0px 20px;
+  }
+
+  div.container-sign {
+    display: grid;
+    padding: 50px;
+    grid-template-areas: "header" "box1" "box2" "box3" "box4" "box5";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr;
+    background-color: rgb(238, 238, 238);
+  }
+
+  input {
+    width: 20%;
+    padding: 10px;
+    border: transparent;
+    background-color: rgb(248, 248, 248);
+  }
 }
 
 .display {
@@ -34,6 +138,7 @@
 .menu-mobile {
   padding: 30px;
   font-family: "Gotham";
+  display: none;
 }
 
 .heading-mobile {
@@ -44,6 +149,7 @@
   font-size: 30px;
   padding: 120px 30px 30px 30px;
   font-family: "Gotham";
+  display: none;
 }
 
 .subjudul1-mobile {
@@ -270,12 +376,12 @@
   text-align: center;
 }
 
-/* input {
+input {
   width: 24%;
   padding: 10px;
   border: transparent;
   background-color: rgb(248, 248, 248);
-} */
+}
 
 .subs-btn-sign {
   padding: 10px 30px;

@@ -19,14 +19,14 @@
 
   nav.menu-mobile {
     display: block;
-    padding: 30px;
+    padding: 40px;
     font-family: "Gotham";
   }
 
   div.judul-mobile {
     display: block;
     font-size: 30px;
-    padding: 120px 30px 30px 30px;
+    padding: 150px 30px 30px 40px;
     font-family: "Gotham";
   }
 
@@ -66,19 +66,25 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 2fr 2fr;
     background-color: rgb(238, 238, 238);
-    padding: 0px 50px 50px 50px;
+    padding: 0 50px 50px 50px;
   }
 
   div.img1-services {
     grid-area: img1;
     justify-self: center;
-    padding: 0px;
+    padding: 12px;
+  }
+
+  .img2-services {
+    grid-area: img2;
+    justify-self: center;
+    padding: 12px;
   }
 
   div.img3-services {
     grid-area: img3;
     justify-self: center;
-    padding: 0px;
+    padding: 12px;
   }
 
   div.container-news {
@@ -109,11 +115,16 @@
     padding: 40px 0px 0px 0px;
   }
 
-  div.container-sign {
-    display: grid;
-    grid-template-areas: "box1 box2 box3 box4 box5";
-    grid-template-rows: 1fr 1fr;
-    grid-template-rows: 1fr;
+  div.sign-up {
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+  }
+
+  .subheader-sign3 input {
+    width: 70%;
+    padding: 10px;
+    border: transparent;
+    background-color: rgb(248, 248, 248);
   }
 
   div.footer {
@@ -150,6 +161,29 @@
     margin: 0px;
     font-size: 6px;
   }
+
+  button.subs-btn-sign {
+    padding: 10px;
+    border: transparent;
+    background-color: rgb(247, 188, 88);
+    color: rgb(245, 245, 245);
+  }
+
+  div.container-sign {
+    display: block;
+  }
+}
+
+.container-sign {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
+.subsign {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 24px;
 }
 
 .display {
@@ -278,6 +312,15 @@
   align-self: center;
 }
 
+.subheader-about {
+  font-family: "Gotham";
+  padding: 6px 0;
+}
+
+.subheader1-about {
+  font-size: 12px;
+}
+
 .judul-content-about {
   font-weight: bold;
   font-size: 18px;
@@ -369,15 +412,19 @@
 }
 
 .judul-news {
-  padding-bottom: 4px;
+  font-family: "Gotham";
+  font-size: 15px;
+  padding-bottom: 6px;
 }
 
 .subjudul-news {
-  padding-bottom: 4px;
+  padding-bottom: 6px;
+  color: rgb(247, 188, 88);
 }
 
 .more-news {
-  padding-top: 10px;
+  padding-top: 14px;
+  font-family: "Gotham";
 }
 
 .content1-news {
@@ -398,10 +445,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 2fr;
   background-color: rgb(238, 238, 238);
-}
+}*/
 
 input {
-  width: 24%;
+  width: 18%;
   padding: 10px;
   border: transparent;
   background-color: rgb(248, 248, 248);
@@ -412,14 +459,23 @@ input {
   border: transparent;
   background-color: rgb(247, 188, 88);
   color: rgb(245, 245, 245);
-} */
+}
 
 .header-sign {
   text-align: center;
+  justify-self: center;
+}
+
+.subheader-sign3 {
+  padding: 14px;
+}
+
+.subheader-sign1 {
+  padding: 4px;
 }
 
 .sign-up {
-  padding: 10px;
+  padding: 50px;
   background-color: rgb(238, 238, 238);
 }
 

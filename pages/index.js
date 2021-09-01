@@ -126,9 +126,8 @@ export default function Home() {
       </div>
       <div className="container-about">
         <div className="header-about">
-          <div>ABOUT COMPANY</div>
-          <div>SOME HISTORY</div>
-          <div></div>
+          <div className="subheader-about">ABOUT COMPANY</div>
+          <div className="subheader1-about">SOME HISTORY</div>
         </div>
         <div className="content1-about">
           <div className="judul-content-about">— 1920</div>
@@ -156,8 +155,8 @@ export default function Home() {
       </div>
       <div className="container-services">
         <div className="header-services">
-          <div>SERVICES</div>
-          <div>WE DO IT</div>
+          <div className="subheader-about">SERVICES</div>
+          <div className="subheader1-about">WE DO IT</div>
         </div>
         <div className="img1-services">
           <Image src="/furniture5.jpeg" width="310" height="280" />
@@ -171,8 +170,8 @@ export default function Home() {
       </div>
       <div className="container-news">
         <div className="header-news">
-          <div>NEWS</div>
-          <div>LATEST EVENT</div>
+          <div className="subheader-about">NEWS</div>
+          <div className="subheader1-about">LATEST EVENT</div>
         </div>
         <div className="content1-news">
           <div className="judul-news">IN A NUMBER OF RECENT JUDICAL</div>
@@ -258,47 +257,44 @@ export default function Home() {
       </div> */}
       <div className="sign-up">
         <div className="header-sign">
-          <div>SIGN ABOUT COMPANY</div>
-          <div>YOU WILL RECEIVE NOTIFICATIONS NEW COMPANY</div>
-          <div className="subheader-sign">
+          <div className="subheader-about">SIGN ABOUT COMPANY</div>
+          <div className="subheader1-about">
+            YOU WILL RECEIVE NOTIFICATIONS NEW COMPANY
+          </div>
+          <div className="subheader-sign3">
             <input placeholder="E-mail"></input>
             <button className="subs-btn-sign">SUBSCRIBE</button>
           </div>
         </div>
         <div className="container-sign">
-          <div className="box1-sign">
+          <div className="subsign">
             <Image
               style="img1-sign"
               src="/furniture7.jpg"
-              width="120"
-              height="100"
+              width="500"
+              height="500"
             />
-          </div>
-          <div className="box2-sign">
             <Image
               style="img2-sign"
               src="/furniture6.jpg"
-              width="120"
-              height="100"
+              width="500"
+              height="500"
             />
-          </div>
-          <div className="box3-sign">
+
             <Image
               style="img3-sign"
               src="/furniture2.jpg"
-              width="120"
-              height="100"
+              width="500"
+              height="500"
             />
-          </div>
-          <div className="box4-sign">
+
             <Image
               style="img4-sign"
               src="/furniture8.jpeg"
-              width="120"
-              height="100"
+              width="500"
+              height="500"
             />
-          </div>
-          <div className="box5-sign">
+
             <Image
               style="img5-sign"
               src="/furniture10.jpeg"

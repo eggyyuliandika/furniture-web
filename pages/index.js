@@ -205,7 +205,8 @@ export default function Home() {
           <Image src="/furniture9.jpeg" width="560" height="400" />
         </div>
       </div>
-      <div className="container-sign">
+
+      {/* <div className="container-sign">
         <div className="header-sign">
           <div>SIGN UP FOR COMPANY NEWS</div>
           <div>YOU WILL RECEIVE NOTIFICATIONS NEW COMPANY</div>
@@ -214,7 +215,57 @@ export default function Home() {
             <button className="subs-btn-sign">SUBSCRIBE</button>
           </div>
         </div>
-        <div>
+        <div className="box1-sign">
+          <Image
+            style="img1-sign"
+            src="/furniture7.jpg"
+            width="120"
+            height="100"
+          />
+        </div>
+        <div className="box2-sign">
+          <Image
+            style="img2-sign"
+            src="/furniture6.jpg"
+            width="120"
+            height="100"
+          />
+        </div>
+        <div className="box3-sign">
+          <Image
+            style="img3-sign"
+            src="/furniture2.jpg"
+            width="120"
+            height="100"
+          />
+        </div>
+        <div className="box4-sign">
+          <Image
+            style="img4-sign"
+            src="/furniture8.jpeg"
+            width="120"
+            height="100"
+          />
+        </div>
+        <div className="box5-sign">
+          <Image
+            style="img5-sign"
+            src="/furniture10.jpeg"
+            width="120"
+            height="100"
+          />
+        </div>
+      </div> */}
+      <div className="sign-up">
+        <div className="header-sign">
+          <div>SIGN ABOUT COMPANY</div>
+          <div>YOU WILL RECEIVE NOTIFICATIONS NEW COMPANY</div>
+          <div className="subheader-sign">
+            <input placeholder="E-mail"></input>
+            <button className="subs-btn-sign">SUBSCRIBE</button>
+          </div>
+        </div>
+        <div className="container-sign">
           <div className="box1-sign">
             <Image
               style="img1-sign"
@@ -254,6 +305,33 @@ export default function Home() {
               width="120"
               height="100"
             />
+          </div>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="content1-footer">
+          <div className="judul-footer">Mr. GAPONOV</div>
+          <div>
+            Far concluded not his something extremity. Want four we face an he
+            gate. On he of played he ladies answer little though nature.
+            Blessing oh do pleasure as so formerly. Took four spot soon led size
+            you.
+          </div>
+        </div>
+        <div className="content2-footer">
+          <div className="judul-footer">USEFUL LINK</div>
+          <p>
+            <div>Vacancy</div>
+            <div>Contact</div>
+            <div>Gallery</div>
+          </p>
+        </div>
+        <div className="content3-footer">
+          <div className="judul-footer">CONTACT</div>
+          <div>
+            <div>Address : pr-t Tekstilshikov, d. 17, office 3</div>
+            <div>Number : 8 (800) 987-65-43</div>
+            <div>E-mai/ : Interior_life@yandex.ru</div>
           </div>
         </div>
       </div>

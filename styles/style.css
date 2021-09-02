@@ -234,6 +234,15 @@
   div.more-news {
     padding-top: 10px;
   }
+
+  div.footer {
+    font-size: 12px;
+    padding: 30px 0px 0px 0px;
+  }
+
+  div.content1-footer {
+    padding: 30px 0px 0px 50px;
+  }
 }
 
 .display {
@@ -581,7 +590,7 @@ input {
 /* footer */
 .footer {
   display: grid;
-  grid-template-columns: 1fr 0.5fr 0.5fr;
+  grid-template-columns: 1fr 0.5fr 0.8fr;
   grid-template-areas: "content1 content2 content3";
   padding: 30px 100px;
   background-color: rgb(42, 42, 42);
@@ -607,6 +616,11 @@ input {
 .judul-footer {
   font-family: "Gotham";
   padding-bottom: 10px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 /* .sidebar {

@@ -1,82 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Home() {
-  // let btn = document.querySelector("#btn");
-  // let sidebar = document.querySelector(".sidebar");
-  // let searchBtn = document.querySelector(".bx-search");
-
-  // btn.onclick = function () {
-  //   sidebar.classList.toggle("active");
-  // };
-  // searchBtn.onclick = function () {
-  //   sidebar.classList.toggle("active");
-  // };
-  // btn.onclick = function () {
-  //   sidebar.classList.toggle("active");
-  // };
+  const [showMobileNav, setShowMobileNav] = useState(false);
   return (
     <div>
-      {/* <link
-        href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
-        rel="stylesheet"
-      ></link> */}
       <div className="display">
-        {/* <div className="sidebar">
-          <div className="logo_content">
-            <div className="logo">
-              <i class="bx bxs-building-house"></i>
-              <div className="logo_name">Mr. GAPONOV</div>
-            </div>
-            <i class="bx bx-menu-alt-left" id="btn"></i>
-          </div>
-          <ul className="nav_list">
-            <li>
-              <i class="bx bx-search"></i>
-              <input type="text" placeholder="Search..." />
-              <span className="tooltip">Search</span>
-            </li>
-            <li>
-              <a href="#">
-                <i class="bx bxs-grid-alt"></i>
-                <span className="links_name">Dashboard</span>
-              </a>
-              <span className="tooltip">Dashboard</span>
-            </li>
-            <li>
-              <a href="#">
-                <i class="bx bxs-grid-alt"></i>
-                <span className="links_name">Main</span>
-              </a>
-              <span className="tooltip">Main</span>
-            </li>
-            <li>
-              <a href="#">
-                <i class="bx bx-images"></i>
-                <span className="links_name">Gallery</span>
-              </a>
-              <span className="tooltip">Gallery</span>
-            </li>
-            <li>
-              <a href="#">
-                <i class="bx bx-info-circle"></i>
-                <span className="links_name">About</span>
-              </a>
-              <span className="tooltip">About</span>
-            </li>
-            <li>
-              <a href="#">
-                <i class="bx bxs-contact"></i>
-                <span className="links_name">Contact</span>
-              </a>
-              <span className="tooltip">Contact</span>
-            </li>
-          </ul>
-          <div className="profile_content"></div>
-        </div> */}
         <nav className="menu">
-          <div className="heading">
+          <div className="heading-mobile">
             <div>Mr. GAPONOV</div>
           </div>
           <ul>
@@ -95,13 +28,21 @@ export default function Home() {
           </ul>
           <div className="item">8 (800) 987-65-43</div>
         </nav>
-
-        <nav className="menu-mobile">
+        <nav className="mobile-nav">
           <div className="heading-mobile">
             <div>Mr. GAPONOV</div>
           </div>
-          <div className="heading-mobile">8 (800) 987-65-43</div>
+          <button onClick={() => setShowMobileNav(!showMobileNav)}>=</button>
+          <div
+            className={`mobile-nav-content ${showMobileNav ? "visible" : ""}`}
+          >
+            <a>Home</a>
+            <a>About</a>
+            <a>Galery</a>
+            <a>Contact</a>
+          </div>
         </nav>
+
         <div className="judul-mobile">
           <div className="heading-mobile">INTERIOR IN</div>
           <div className="subjudul1-mobile">YOUR HOUSE</div>
@@ -201,7 +142,7 @@ export default function Home() {
           </div>
         </div>
         <div className="img-news">
-          <Image src="/furniture9.jpeg" width="560" height="400" />
+          <Image src="/furniture9.jpeg" width="600" height="550" />
         </div>
       </div>
 
@@ -219,9 +160,13 @@ export default function Home() {
         <div className="container-sign">
           <div className="subsign">
             <Image src="/furniture7.jpg" width="300" height="300" />
+
             <Image src="/furniture6.jpg" width="300" height="300" />
+
             <Image src="/furniture2.jpg" width="300" height="300" />
+
             <Image src="/furniture8.jpeg" width="300" height="300" />
+
             <Image src="/furniture10.jpeg" width="300" height="300" />
           </div>
         </div>

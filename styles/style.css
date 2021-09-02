@@ -72,19 +72,19 @@
   div.img1-services {
     grid-area: img1;
     justify-self: center;
-    padding: 12px;
+    padding: 2px 0 0 0;
   }
 
   .img2-services {
     grid-area: img2;
     justify-self: center;
-    padding: 12px;
+    padding: 2px 0 0 0;
   }
 
   div.img3-services {
     grid-area: img3;
     justify-self: center;
-    padding: 12px;
+    padding: 2px 0 0 0;
   }
 
   div.container-news {
@@ -127,6 +127,17 @@
     background-color: rgb(248, 248, 248);
   }
 
+  button.subs-btn-sign {
+    padding: 10px;
+    border: transparent;
+    background-color: rgb(247, 188, 88);
+    color: rgb(245, 245, 245);
+  }
+
+  div.container-sign {
+    display: block;
+  }
+
   div.footer {
     margin-top: 50%;
   }
@@ -161,29 +172,68 @@
     margin: 0px;
     font-size: 6px;
   }
-
-  button.subs-btn-sign {
-    padding: 10px;
-    border: transparent;
-    background-color: rgb(247, 188, 88);
-    color: rgb(245, 245, 245);
-  }
-
-  div.container-sign {
-    display: block;
-  }
 }
 
-.container-sign {
-  display: flex;
-  justify-content: center;
-  overflow: auto;
-}
+@media only screen and (max-width: 1024px) {
+  div.menu {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
 
-.subsign {
-  display: grid;
-  grid-auto-flow: column;
-  gap: 24px;
+  nav.menu {
+    padding: 10px 70px;
+  }
+
+  nav.menu ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.content1-about {
+    padding: 50px 0px 0px 100px;
+  }
+
+  div.content2-about {
+    padding: 10px 0px 0px 100px;
+  }
+
+  div.display-more-about {
+    padding-top: 20px;
+  }
+
+  div.container-services {
+    padding: 0px 150px 50px 150px;
+  }
+
+  div.img1-services {
+    padding-left: 0px;
+  }
+
+  div.img3-services {
+    padding-right: 0px;
+  }
+
+  div.img-news {
+    padding: 50px 0px 0px 100px;
+  }
+
+  div.judul-news {
+    font-size: 12px;
+    padding-top: 2px;
+  }
+
+  div.content1-news {
+    font-size: 10px;
+    padding: 60px 100px 0px 20px;
+  }
+
+  div.content2-news {
+    font-size: 10px;
+    padding: 10px 100px 0px 20px;
+  }
+
+  div.more-news {
+    padding-top: 10px;
+  }
 }
 
 .display {
@@ -438,16 +488,6 @@
   padding: 20px 150px 0px 20px;
 }
 
-/* container-sign */
-/* .container-sign {
-  display: grid;
-  padding: 50px;
-  grid-template-areas: "header header header header header" "box1 box2 box3 box4 box5";
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr;
-  background-color: rgb(238, 238, 238);
-}*/
-
 input {
   width: 18%;
   padding: 10px;
@@ -481,10 +521,16 @@ input {
 }
 
 .container-sign {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
+.subsign {
   display: grid;
-  grid-template-areas: "box1 box2 box3 box4 box5";
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  gap: 24px;
+  grid-auto-flow: column;
+  padding: 20px;
 }
 
 .box1-sign {

@@ -79,7 +79,7 @@ export default function Home() {
           <div className="heading">
             <div>Mr. GAPONOV</div>
           </div>
-          <ul className="hero">
+          <ul>
             <li className="button-navbar">
               <a href="">MAIN</a>
             </li>
@@ -205,56 +205,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className="container-sign">
-        <div className="header-sign">
-          <div>SIGN UP FOR COMPANY NEWS</div>
-          <div>YOU WILL RECEIVE NOTIFICATIONS NEW COMPANY</div>
-          <div className="subheader-sign">
-            <input placeholder="E-mail"></input>
-            <button className="subs-btn-sign">SUBSCRIBE</button>
-          </div>
-        </div>
-        <div className="box1-sign">
-          <Image
-            style="img1-sign"
-            src="/furniture7.jpg"
-            width="120"
-            height="100"
-          />
-        </div>
-        <div className="box2-sign">
-          <Image
-            style="img2-sign"
-            src="/furniture6.jpg"
-            width="120"
-            height="100"
-          />
-        </div>
-        <div className="box3-sign">
-          <Image
-            style="img3-sign"
-            src="/furniture2.jpg"
-            width="120"
-            height="100"
-          />
-        </div>
-        <div className="box4-sign">
-          <Image
-            style="img4-sign"
-            src="/furniture8.jpeg"
-            width="120"
-            height="100"
-          />
-        </div>
-        <div className="box5-sign">
-          <Image
-            style="img5-sign"
-            src="/furniture10.jpeg"
-            width="120"
-            height="100"
-          />
-        </div>
-      </div> */}
       <div className="sign-up">
         <div className="header-sign">
           <div className="subheader-about">SIGN ABOUT COMPANY</div>
@@ -262,45 +212,17 @@ export default function Home() {
             YOU WILL RECEIVE NOTIFICATIONS NEW COMPANY
           </div>
           <div className="subheader-sign3">
-            <input placeholder="E-mail"></input>
+            <input placeholder="E-mail" />
             <button className="subs-btn-sign">SUBSCRIBE</button>
           </div>
         </div>
         <div className="container-sign">
           <div className="subsign">
-            <Image
-              style="img1-sign"
-              src="/furniture7.jpg"
-              width="500"
-              height="500"
-            />
-            <Image
-              style="img2-sign"
-              src="/furniture6.jpg"
-              width="500"
-              height="500"
-            />
-
-            <Image
-              style="img3-sign"
-              src="/furniture2.jpg"
-              width="500"
-              height="500"
-            />
-
-            <Image
-              style="img4-sign"
-              src="/furniture8.jpeg"
-              width="500"
-              height="500"
-            />
-
-            <Image
-              style="img5-sign"
-              src="/furniture10.jpeg"
-              width="120"
-              height="100"
-            />
+            <Image src="/furniture7.jpg" width="300" height="300" />
+            <Image src="/furniture6.jpg" width="300" height="300" />
+            <Image src="/furniture2.jpg" width="300" height="300" />
+            <Image src="/furniture8.jpeg" width="300" height="300" />
+            <Image src="/furniture10.jpeg" width="300" height="300" />
           </div>
         </div>
       </div>

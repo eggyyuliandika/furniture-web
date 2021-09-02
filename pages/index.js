@@ -59,7 +59,7 @@ export default function Home() {
             <div className="dis-judul2">
               <p>CHOOSE FOR YOURSELF SOMETHING NEW</p>
             </div>
-            <div>
+            <div className="display-btn">
               <button className="btn-more">More</button>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function Home() {
           </div>
         </div>
         <div className="img-news">
-          <Image src="/furniture9.jpeg" width="600" height="550" />
+          <Image src="/furniture9.jpeg" width="550" height="420" />
         </div>
       </div>
 
@@ -157,16 +157,20 @@ export default function Home() {
             <button className="subs-btn-sign">SUBSCRIBE</button>
           </div>
         </div>
-        <div className="container-sign">
-          <div className="subsign">
+        <div className="subsign">
+          <div className="box1-sign">
             <Image src="/furniture7.jpg" width="300" height="300" />
-
+          </div>
+          <div className="box2-sign">
             <Image src="/furniture6.jpg" width="300" height="300" />
-
+          </div>
+          <div className="box3-sign">
             <Image src="/furniture2.jpg" width="300" height="300" />
-
+          </div>
+          <div className="box4-sign">
             <Image src="/furniture8.jpeg" width="300" height="300" />
-
+          </div>
+          <div className="box5-sign">
             <Image src="/furniture10.jpeg" width="300" height="300" />
           </div>
         </div>

@@ -15,7 +15,7 @@
 
 /* Responsive Breakpoint */
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1440px) {
   div.content1-news {
     padding: 70px 150px 0px 40px;
   }
@@ -190,10 +190,6 @@
     padding: 10px;
   }
 
-  div.container-sign {
-    display: block;
-  }
-
   div.footer {
     margin-top: 50%;
   }
@@ -271,8 +267,7 @@
 
 .display {
   background-image: url(../public/bg1.jpg);
-  height: 100vh;
-  width: 100%;
+
   color: white;
   background-size: cover;
   background-position: center;
@@ -359,6 +354,7 @@
 
 .heading-mobile {
   padding: 10px 10px 10px 60px;
+  text-align: center;
 }
 
 .judul-mobile {
@@ -370,6 +366,10 @@
 
 .subjudul1-mobile {
   padding: 10px 10px 10px 60px;
+}
+
+.display-btn {
+  padding-top: 20px;
 }
 
 .btn-more-mobile {
@@ -388,6 +388,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+
   font-family: "Gotham";
   padding-top: 10px;
 }
@@ -461,7 +462,7 @@
     "content2 img";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.2fr 0.4fr 0.7fr;
-  margin: 50px;
+  margin: 30px 50px;
 }
 
 .header-about {
@@ -566,7 +567,6 @@
 
 .img-news {
   grid-area: img;
-  justify-self: center;
   padding: 50px 0px 0px 150px;
 }
 
@@ -625,26 +625,21 @@ input {
 }
 
 .sign-up {
-  padding: 50px;
   background-color: rgb(238, 238, 238);
-}
-
-.container-sign {
-  display: flex;
-  justify-content: center;
-  overflow: auto;
+  padding: 30px;
 }
 
 .subsign {
   display: grid;
-  gap: 24px;
-  grid-auto-flow: column;
-  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  grid-template-areas: "box1 box2 box3 box4 box5";
 }
 
-.box1-sign {
+/* .box1-sign {
   margin-top: 20px;
-  padding: 30px;
+  padding: 50px;
   grid-area: box1;
   justify-self: center;
   border: solid 5px black;
@@ -685,7 +680,7 @@ input {
   justify-self: center;
   border: solid 5px black;
   box-shadow: inset 0px 6px 0 rgba(43, 42, 42, 0.26);
-}
+} */
 
 /* footer */
 .footer {
